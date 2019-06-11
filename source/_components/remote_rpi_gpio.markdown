@@ -103,7 +103,10 @@ invert_logic:
 {% endconfiguration %}
 
 For more details about the GPIO layout, visit the Wikipedia [article](https://en.wikipedia.org/wiki/Raspberry_Pi#GPIO_connector) about the Raspberry Pi.
-
+<p>Host Requirements:
+<br>
+Remote GPIO must be enabled on remote rPI, pigpio must be installed and pigpiod must be running.
+</p>
 <p class='note warning'>
 Note that a pin managed by HASS is expected to be exclusive to HASS.
 </p>
